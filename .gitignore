@@ -1,0 +1,44 @@
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node.js / React / Vite / TypeScript
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm/
+.pnpm-store/
+
+# Environment files — never commit secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Docker
+.docker/
+
+# PostgreSQL data (when using local volumes)
+pgdata/
+
+# VS Code
+.vscode/
+.code-profile
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build / coverage artifacts
+coverage/
+htmlcov/
+*.log

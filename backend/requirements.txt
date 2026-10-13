@@ -1,0 +1,22 @@
+# Smart Service Desk — planned backend dependencies (Phase 0, not installed yet).
+# Environment setup, virtualenv, and pip install happen in the next phase.
+#
+# Core API
+fastapi>=0.115,<0.117
+uvicorn[standard]>=0.30,<0.35
+pydantic>=2.7,<3.0
+pydantic-settings>=2.3,<3.0
+python-multipart>=0.0.9,<0.0.20
+#
+# Database (Phase 1)
+sqlalchemy>=2.0,<2.1
+psycopg2-binary>=2.9,<3.0
+alembic>=1.13,<1.16
+#
+# Auth / security (Phase 2)
+python-jose[cryptography]>=3.3,<4.0
+passlib[bcrypt]>=1.7,<2.0
+#
+# Testing (Phase 7)
+pytest>=8.0,<9.0
+httpx>=0.27,<0.29
